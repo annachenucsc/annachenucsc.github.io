@@ -1,0 +1,70 @@
+baseURL = 'https://annachen.github.io/'
+locale = 'en-us'
+title = 'Home'
+theme = "hugo-theme-sigil"
+
+[languages]
+  [languages.en]
+    label = "English"
+    weight = 1
+    title = "Home"
+    [languages.en.params]
+        sgHomeTitle = "Hi! I'm Anna Chen"
+        [languages.en.params.homeInfoParams]
+            content = """
+I am a first year Astrophysics PhD student at the University of California, Santa Cruz (UCSC). My research interests 
+lie in high energy computational astrophysics. Particularly in modeling compact objects
+and explosive phenomena. Through my research, I hope to better understand nuclear processes that we cannot
+create on Earth. <br><br>
+
+I currently work under the supervision of Dr. Enrico Ramiriz-Ruiz in the Astronomy and Astrophysics Department at UCSC. 
+Before coming to UCSC, I received my bachelors degree in Physics and Math at Bowdoin College. At Bowdoin, I worked with
+Professor Thomas W. Baumgarte modeling transiting dense stellar material through compact stars. <br><br>
+
+I am passionate about advocating for women and minorities in STEM. I am always looking to improve communication and
+leadership skills through outreach and education. <br><br>
+
+Email: achen413@ucsc.edu
+            """
+
+    [[languages.en.menus.main]]
+        identifier = "research"
+        name = "Research"
+        pageRef = "research"
+        weight = 1
+    [[languages.en.menus.main]]
+        identifier = "outreach"
+        name = "Outreach"
+        pageRef = "outreach"
+        weight = 3
+    [[languages.en.menus.main]]
+        identifier = "CV"
+        name = "CV"
+        pageRef = "CV"
+        weight = 2
+
+[params]
+  author = "Anna Chen"
+  ShowBreadCrumbs = true
+  ShowReadingTime = false
+  ShowToc = true
+  ShowCodeCopyButtons = true
+  sgSealImage = "/images/headshot.jpeg"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/achen413-matty"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/anna-chen-0606bb278"
+  [[params.socialIcons]]
+    name = "orcid"
+    url = "https://orcid.org/my-orcid?orcid=0000-0002-7192-3086"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false

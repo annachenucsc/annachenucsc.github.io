@@ -1,0 +1,17 @@
+.sg-seal__frame img {
+  filter: none !important;
+}
+
+.headings { color: #85b2d3; font-weight: 600; }
+.subheadings { color: #c291c7; font-weight: 600; }
+
+.post-content {
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  word-spacing: -0.05em;
+}
+
+.post-content p {
+  margin-top: 0;
+  margin-bottom: 0.8em;
+}
