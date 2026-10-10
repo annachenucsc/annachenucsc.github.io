@@ -4,13 +4,13 @@ title: "Research"
 
 ## <span class="headings">Current Project: </span> 
 ### <span class="subheadings">Dark Matter Trigger of Type Ia Supernovae (UCSC | Bowdoin College)</span>
-<div style="display: flex; gap: 1.5rem; align-items: center;">
-  <img src="/images/temperature_5x2.png" alt="Simulation snapshot" style="width: 280px; max-width: 100%;">
-  <div style="flex: 1; min-width: 250px;">
+
 Primordial Black Holes (PBH) are a possible alternative candidate for the dark matter constituents of the universe. I am interested in whether the transit of PBH through white dwarfs can heat temperatures of a critical spatial scale long enough to trigger a runaway thermonuclear reaction before expansion and diffusive processes overcome the perturbation. I conducted numerical-relativistic calculations of a transiting PBH and preliminary results show substantial heating around the black hole. I will build on these calculations with multidimensional hydrodynamic simulations using the hydrodynamic code, FLASH, at UCSC. This will allow us to determine the boundary of when a transit will trigger a Type Ia supernovae. This work is already a senior thesis accepted to the Bowdoin College Library and a manuscript for publication is in development. 
 
-  </div>
+<div style="margin: 1.5rem 0 2.5rem;">
+  <img src="/images/temperature_5x2.png" alt="Simulation snapshot" style="display: block; margin: 0 auto; width: 400px; max-width: 100%;">
 </div>
+
 
 ## <span class="headings">Past Projects:</span>
 
