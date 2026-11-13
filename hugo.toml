@@ -1,6 +1,6 @@
 baseURL = 'https://annachenucsc.github.io/'
 locale = 'en-us'
-title = 'Home'
+title = 'Anna Chen | Astrophysics PhD Student'
 theme = "hugo-theme-sigil"
 
 [languages]
